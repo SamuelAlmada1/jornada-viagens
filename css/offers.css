@@ -6,6 +6,8 @@
     box-sizing: border-box;
     border-radius: 16px;
     text-align: center;
+    margin: 24px;
+    overflow: hidden;
 }
 
 .card header {
