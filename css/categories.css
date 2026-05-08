@@ -1,0 +1,27 @@
+.ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 312px;
+    height: 220px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16 24;
+}
+
+.ofertas :hover {
+    transform: scale(1.02);
+}
+
+.icone {
+    width: 60px;
+    margin-bottom: 24px;
+}
+
+.cat-text {
+    color: black;
+    font-weight: var(--title-weight);
+    font-size: 28px;
+}
