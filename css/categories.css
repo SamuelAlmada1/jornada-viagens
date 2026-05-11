@@ -25,6 +25,7 @@
     text-decoration: none;
     padding: 16 24;
     text-align: center;
+    /* box-sizing: border-box; */
 }
 
 .ofertas :hover {
@@ -43,6 +44,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .title {
+        width: auto;
+    }
+    
     .pacotes {
         display: flex;
         flex-direction: row;
@@ -50,11 +55,24 @@
         justify-content: center;
     
      }
+
 }
 
 @media screen and (min-width:1024px) {
     .ofertas {
-        width: 281px;
+        width: 430px;
+    }
+    .cat-text {
+        width: 249px;
     }
      }
-}
+
+     @media screen and (min-width:1440px) {
+        .ofertas {
+            width: 281px;
+        }
+        .cat-text {
+            width: 249px;
+        }
+         }
+    
