@@ -69,7 +69,6 @@
     border-radius: 16px;
     text-decoration: none;
     line-height: 64px;
-    
   }
 
   @media screen and (min-width: 768px) {
@@ -81,5 +80,6 @@
   @media screen and (min-width: 1024px) {
    .button:hover {
     background-color: var(--primary-color);
+    transform: scale(1.05);
    }
   }
