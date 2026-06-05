@@ -20,7 +20,9 @@ header {
 
 .logo-desktop {
     display: none;
+
 }
+
 
 .menu {
     margin-top: 24px;
@@ -94,6 +96,7 @@ nav {
     .logo-desktop {
         display: block;
     }
+
 
     .logo-mobile {
         display: none;
